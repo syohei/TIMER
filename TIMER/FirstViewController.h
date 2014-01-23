@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController{
+    NSTimer *now_timer;
+}
+@property (weak, nonatomic) IBOutlet UILabel *label_date;
+@property (weak, nonatomic) IBOutlet UILabel *label_time;
 
 @end
