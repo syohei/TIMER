@@ -56,16 +56,16 @@
                               nowdateComp.second ];
 
     
-    NSDateFormatter *weekdayformatter = [[NSDateFormatter alloc] init];
-    [weekdayformatter setLocale:[NSLocale currentLocale]];
-    NSArray *weekdaySymbols = [weekdayformatter shortWeekdaySymbols];
+   // NSDateFormatter *weekdayformatter = [[NSDateFormatter alloc] init];
+   // [weekdayformatter setLocale:[NSLocale currentLocale]];
+   // NSArray *weekdaySymbols = [weekdayformatter shortWeekdaySymbols];
      
    
-    self.label_date.text = [NSString stringWithFormat:@"%d/%02d/%02d (%@)",
-                      nowdateComp.year,
-                      nowdateComp.month,
-                      nowdateComp.day,
-                      [weekdaySymbols objectAtIndex:nowdateComp.weekday -1 ]];
+   // self.label_date.text = [NSString stringWithFormat:@"%d/%02d/%02d (%@)",
+   //                   nowdateComp.year,
+   //                   nowdateComp.month,
+   //                   nowdateComp.day,
+   //                   [weekdaySymbols objectAtIndex:nowdateComp.weekday -1 ]];
     
     
 }
